@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>create your account</title>
+    <link rel="stylesheet" type="text/css" href="./css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <meta name="google-signin-client_id" content="402144901364-ldia7l77d2j4vg8h93aoibosoq3sim4v.apps.googleusercontent.com"/>
+
+  </head>
+  <body>
+    <div class="signup">
+      <div class="signup-connect">
+        <h1>Create your account</h1>
+        <div class="container">
+          <form action="/signup.php" method="post">
+            <div class="col">
+              <input
+                type="text"
+                id="userName"
+                placeholder="Email"
+                required
+              />
+              <br>
+              <input
+                type="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+              <br>
+              <input
+                type="password"
+                id="confirmpassword"
+                placeholder="Confirm Password"
+                required
+              />
+              <br>
+              <button type="submit">Signup</button>
+            </div>
+
+
+            <div class="row">Alredy have account?
+              <a href="login.html">Login</a></div>
+     
+            <div  style="height:36px;width: 250px;" class="btn  g-signin2  " data-longtitle="true"></div>
+         
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      
+          </form>
+        </div>
+      </div>
+    </div>
+
+      <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+   <script src="/script.js"></script>
+  </body>
+</html>

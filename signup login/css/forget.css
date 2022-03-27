@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+ 
+}
+body {
+  font-family: Open Sans;
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+
+.forget {
+  background-color: white;
+  border-radius: 10px;
+  width: 50vw;
+  margin: auto;
+  padding-bottom: auto;
+  margin-top: 10%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5vw;
+  width: 35vw;
+  opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .forget {
+    width: 100%;
+  }
+
+  .btn {
+    width: 50vw;
+    font-size: 3vw;
+  }
+}
+
+input[type="submit"] {
+  background-color: rgba(11, 14, 224, 0.979);
+  color: white;
+  cursor: pointer;
+  width: 35vw;
+  padding: 9px;
+  margin: 7px;
+  display: inline-block;
+  border: #00a1dbd0;
+  border-radius: 4px;
+  opacity: 0.8;
+
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+input[type="text"] {
+  width: 35vw;
+  padding: 10px;
+  margin: 6px;
+  display: inline-block;
+  border-color: #004fe2;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .forget {
+    width: 65vw;
+  }
+  .col {
+    display: inline;
+  }
+}
+.row {
+  text-decoration: none;
+  text-align: center;
+margin: 8px;
+padding: 8px;
+}
+
+
